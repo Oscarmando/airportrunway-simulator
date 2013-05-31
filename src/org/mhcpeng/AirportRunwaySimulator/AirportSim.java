@@ -34,7 +34,6 @@ public class AirportSim {
 	private int runwayFree = 0;
 	
 	private int minute;
-	
 	private String planeEvent;
 	private String outputPlane;
 	private String onRunway;
@@ -142,7 +141,7 @@ public class AirportSim {
 				< PLANE_ARRIVAL_HOURLY_AVG);
 	}
 	/* Return a boolean value indicating whether or
-	 * not a plane has arrived for this minute.
+	 * not a plane is ready to depart for this minute.
 	 * 
 	 * This is a static method because the constants
 	 * it uses are static.
